@@ -6,7 +6,7 @@ puts "Welcome! What holiday are you celebrating?"
 holiday = gets.strip
 puts "Who are you sending this to?"
 recipient = gets.strip
-puts "What is your name?"
+puts "What is the sender's name?"
 sender = gets.strip
 
 puts holiday_greeting(recipient, sender, holiday)
