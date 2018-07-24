@@ -10,3 +10,4 @@ puts "What is the sender's name?"
 sender = gets.strip
 
 puts holiday_greeting(recipient, sender, holiday)
+puts holiday_greeting
